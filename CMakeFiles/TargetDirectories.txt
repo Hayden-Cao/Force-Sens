@@ -1,0 +1,5 @@
+C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/CMakeFiles/force_sensor.dir
+C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/CMakeFiles/edit_cache.dir
+C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/CMakeFiles/rebuild_cache.dir
+C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

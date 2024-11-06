@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F46329F7-BB6B-3F6D-AF36-73B41475CC79}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>force_sensor</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">force_sensor.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">force_sensor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">force_sensor.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">force_sensor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">force_sensor.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">force_sensor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">force_sensor.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">force_sensor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);USE_HAL_DRIVER;STM32F446xx;DEBUG;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);USE_HAL_DRIVER;STM32F446xx;DEBUG;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build/Debug/force_sensor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build/Release/force_sensor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build/MinSizeRel/force_sensor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Core\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build/RelWithDebInfo/force_sensor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\ST\STM32CubeCLT_1.16.0\CMake\bin\cmake.exe -SC:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor -BC:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build --check-stamp-file C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeASMInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\GNU-ASM.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\GNU.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Platform\Generic.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeASMCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\gcc-arm-none-eabi.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\ST\STM32CubeCLT_1.16.0\CMake\bin\cmake.exe -SC:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor -BC:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build --check-stamp-file C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeASMInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\GNU-ASM.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\GNU.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Platform\Generic.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeASMCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\gcc-arm-none-eabi.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\ST\STM32CubeCLT_1.16.0\CMake\bin\cmake.exe -SC:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor -BC:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build --check-stamp-file C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeASMInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\GNU-ASM.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\GNU.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Platform\Generic.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeASMCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\gcc-arm-none-eabi.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\ST\STM32CubeCLT_1.16.0\CMake\bin\cmake.exe -SC:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor -BC:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build --check-stamp-file C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeASMInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\GNU-ASM.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\GNU.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\ST\STM32CubeCLT_1.16.0\CMake\share\cmake-3.28\Modules\Platform\Generic.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeASMCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\cmake\gcc-arm-none-eabi.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Core\Src\main.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Core\Src\stm32f4xx_it.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Core\Src\stm32f4xx_hal_msp.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Core\Src\system_stm32f4xx.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Core\Src\sysmem.c" />
+    <ClCompile Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\Core\Src\syscalls.c" />
+    <None Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\startup_stm32f446xx.s" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\caoha\STM32CubeIDE\workspace_1.15.0\force_sensor\build\ZERO_CHECK.vcxproj">
+      <Project>{E59955A6-3D3C-3703-A9FE-D68A5E54CB59}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

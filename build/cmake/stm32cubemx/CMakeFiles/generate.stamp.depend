@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake
+C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake
+C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake
+C:/Users/caoha/STM32CubeIDE/workspace_1.15.0/force_sensor/cmake/stm32cubemx/CMakeLists.txt
